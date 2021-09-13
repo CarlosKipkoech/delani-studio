@@ -1,0 +1,80 @@
+"use strict";
+
+$(document).ready(function () {
+  // $(".nav-logo img").css(function () {});
+
+  /*WHAT WE DO*/
+
+  $(".design").hide();
+  $(".development").hide();
+  $(".product").hide();
+  var img1 = $(".1mg1");
+  var img2 = $(".1mg2");
+  var img3 = $(".1mg3");
+  var design = $(".design");
+  var product = $(".product");
+  var development = $(".development");
+
+  $(".img1").click(function () {
+    $(this).toggle();
+    $(design).toggle();
+  });
+
+  $(design).click(function () {
+    $(design).hide();
+    $(".img1").show();
+  });
+  $(".img2").click(function () {
+    $(this).toggle();
+    $(development).toggle();
+  });
+
+  $(development).click(function () {
+    $(development).hide();
+    $(".img2").show();
+  });
+  $(".img3").click(function () {
+    $(this).toggle();
+    $(product).toggle();
+  });
+
+  $(product).click(function () {
+    $(product).hide();
+    $(".img3").show();
+  });
+
+  /*PORTFOLIO */
+  $(".port-1").hover(function () {
+    $(".port-name0").toggleClass("modal");
+    $(".port1").toggleClass("modal");
+  });
+  $(".port-2").hover(function () {
+    $(".port-name1").toggleClass("modal");
+    $(".port2").toggleClass("modal");
+  });
+  $(".port-3").hover(function () {
+    $(".port-name2").toggleClass("modal");
+    $(".port3").toggleClass("modal");
+  });
+  $(".port-4").hover(function () {
+    $(".port-name3").toggleClass("modal");
+    $(".port4").toggleClass("modal");
+  });
+  $(".port-5").hover(function () {
+    $(".port-name4").toggleClass("modal");
+    $(".port5").toggleClass("modal");
+  });
+  $(".port-6").hover(function () {
+    $(".port-name5").toggleClass("modal");
+    $(".port6").toggleClass("modal");
+  });
+  $(".port-7").hover(function () {
+    $(".port-name6").toggleClass("modal");
+    $(".port7").toggleClass("modal");
+  });
+  $(".port-8").hover(function () {
+    $(".port-name7").toggleClass("modal");
+    $(".port8").toggleClass("modal");
+  });
+  // MAIL CHIMP NEWSLETTER
+});

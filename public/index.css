@@ -1,0 +1,130 @@
+.showcase {
+  background-image: url(img/h_img.jpg);
+  background-size: 1300px;
+  padding-top: 18%;
+
+  color: white;
+}
+.nav-text {
+  font-size: 47px;
+}
+.amazing {
+  font-size: 15px;
+  font-weight: 500;
+}
+.mouse {
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+.about-us {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+}
+.about-us2 {
+  padding-left: 14%;
+  padding-right: 14%;
+  line-height: 2.5em;
+}
+.services {
+  color: white;
+  font-weight: 500;
+  line-height: 2.5em;
+  padding: 8%;
+  background-image: url(img/s_image.jpg);
+  background-size: 1450px 400px;
+}
+* {
+  overflow-x: hidden;
+}
+.port-images {
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-top: 2%;
+}
+.port-1,
+.port-2,
+.port-3,
+.port-4,
+.port-5,
+.port-6,
+.port-7,
+.port-8 {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 70%;
+  width: 90.5%;
+  height: 100%;
+  top: 0;
+  left: 10%;
+  z-index: 100;
+}
+
+.port-name0,
+.port-name1,
+.port-name2,
+.port-name3,
+.port-name4,
+.port-name5,
+.port-name6,
+.port-name7 {
+  position: absolute;
+  z-index: 100;
+  padding-right: 10%;
+  top: 8%;
+  left: 17%;
+  width: 75%;
+  height: 85%;
+  border: solid white;
+  color: white;
+}
+
+.input {
+  padding-left: 14%;
+  padding-right: 7%;
+  background: transparent;
+}
+.contact {
+  background-image: url(img/c_image.jpg);
+  background-size: 1550px 630px;
+  color: #fff;
+  padding-top: 4%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  padding-left: 2%;
+}
+button {
+  background-color: rgb(201, 155, 95);
+  color: white;
+  border: none;
+  width: 120px;
+  height: 60px;
+  font-size: x-large;
+  border-radius: 10px;
+}
+.button {
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+.year {
+  margin-top: -1%;
+}
+.footer img {
+  padding-left: 2%;
+}
+.overlay2 {
+  position: absolute;
+  background-color: black;
+  opacity: 70%;
+  width: 10%;
+  height: 100%;
+  top: 0;
+  left: 10%;
+  z-index: 100;
+}

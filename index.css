@@ -128,3 +128,27 @@ button {
   left: 10%;
   z-index: 100;
 }
+.complete {
+  margin-bottom: 5%;
+  border: solid green;
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  margin-left: 23%;
+  border-radius: 15px;
+  box-shadow: greenyellow 18px;
+}
+.giff {
+  margin-left: 34.5%;
+}
+.returnmessage {
+  color: green;
+}
+.mailchimp {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+.missing {
+  color: red;
+  margin-left: 15%;
+}

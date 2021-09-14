@@ -2,7 +2,9 @@
 
 $(document).ready(function () {
   // $(".nav-logo img").css(function () {});
-
+  $("body").bind("touchmove", function (e) {
+    e.preventDefault();
+  });
   /*WHAT WE DO*/
 
   $(".design").hide();
@@ -76,5 +78,37 @@ $(document).ready(function () {
     $(".port-name7").toggleClass("modal");
     $(".port8").toggleClass("modal");
   });
-  // MAIL CHIMP NEWSLETTER
+  $(".complete").hide();
+  $(".missing").hide();
+
+  $("#sub").click(function (e) {
+    e.preventDefault();
+    var userName = $("#name").val();
+    if (!userName) {
+      $(".missing").fadeIn(100, function () {
+        $(".missing").delay(2000).fadeOut(3000);
+      });
+    } else {
+      $(".returnmessage").text(`success! ${userName} Your message was posted`);
+      $(".formas").fadeOut("fast", function () {
+        $(".formas").delay(4000).fadeIn();
+      });
+      $(".complete").fadeIn(1500, function () {
+        $(".complete").delay(2000).fadeOut(1000);
+      });
+    }
+  });
 });
+
+// MAIL CHIMP NEWSLETTER
+
+/*var myVar;
+
+function myFunction() {
+  myVar = setTimeout(alertFunc, 3000);
+}
+
+function alertFunc() {
+  alert("Hello!");
+}
+ */

@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
-    <script src="app.js"></script>
 
     <title>Delani Studio</title>
   </head>
@@ -208,12 +207,14 @@
     <section>
       <div class="contact">
         <h2 class="text-center">CONTACT US</h2>
-
-        <form action=""></form>
-        <form action="/signup" method="POST" style="padding-top: 2%">
+      
+        <h6 class="missing"> You have Missing fields</h6>
+        <form class="formas" method="POST" style="padding-top: 2%">
           <div class="input d-none d-xl-flex g-4">
             <div class="name">
+              
               <input
+                value=""
                 class="inputin"
                 type="text"
                 name="name"
@@ -237,16 +238,17 @@
             </div>
           </div>
           <div class="name2 px-5 py-3 d-xl-none">
-            <input class="" placeholder="Name..." style="background:
+            <input id="name" value=""placeholder="Name..." style="background:
             transparent; width: 100%;border: solid 2px white" size="40" width:
             100%; type="text" />
           </div>
           <div class="mail2 px-5 py-3 d-xl-none">
             <input
+              value=""
               class=""
               type="text"
               name="name"
-              id="name"
+              id="email"
               placeholder="Email..."
               style="
                 background: transparent;
@@ -282,9 +284,22 @@
             ></textarea>
           </div>
           <div class="button text-center">
-            <button>Submit</button>
+            <button id="sub">Submit</button>
           </div>
         </form>
+
+        <div class="complete">
+          <img
+            class="giff"
+            src="img/391906020_THUMBS_UP_400px.gif"
+            alt=""
+            width="200px"
+          />
+          <div >
+            <h3 class="text-center returnmessage">success Henry! Your message was posted</h1>
+              <p><img  class='mailchimp'src="img/mailchimp.png"  width='50px'alt=""></p>
+          </div>
+        </div>
       </div>
     </section>
     <section>

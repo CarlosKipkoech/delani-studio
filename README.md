@@ -24,7 +24,7 @@
 
 * Live link to view the project <a href="https://DWN7777.github.io/delani-studio/">View Delani Studio</a>
 ## Some Screenshots
-<img src="./assets/img/screenshots/1.png" alt="screenshot" />
+<img src=".img/showcasescreen.png" alt="screenshot" />
 <img src="./assets/img/screenshots/2.png" alt="screenshot" />
 <img src="./assets/img/screenshots/3.png" alt="screenshot" />
 <img src="./assets/img/screenshots/4.png" alt="screenshot" />

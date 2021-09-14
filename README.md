@@ -24,10 +24,10 @@
 
 * Live link to view the project <a href="https://DWN7777.github.io/delani-studio/">View Delani Studio</a>
 ## Some Screenshots
-<img src="img/showcasescreen.png" alt="screenshot" />
-<img src="img/aboutscreen.png" alt="screenshot" />
-<img src="img/portscreen.png" alt="screenshot" />
-<img src="img/contactscreen.png" alt="screenshot" />
+<img src="img/showcasescreen.png" alt="screenshot" /><img src="img/aboutscreen.png" alt="screenshot" />
+<img src="img/portscreen.png" alt="screenshot" /><img src="img/contactscreen.png" alt="screenshot" />
+
+
 
 
 ## Known Bugs

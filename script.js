@@ -1,6 +1,18 @@
 "use strict";
 
 $(document).ready(function () {
+  $(".nav-texta").hide();
+  $(".todelan").hide();
+  $(".amazing").hide();
+
+  $(window).on("load", function () {
+    $(".nav-texta").delay(10).fadeIn(1000);
+    $(".todelan").delay(1000).fadeIn(1000);
+
+    $(".amazing").delay(3000).fadeIn(2500);
+    $(".logod").delay(2000).animate({ width: "96px" }, 1000);
+  });
+
   // $(".nav-logo img").css(function () {});
   $("body").bind("touchmove", function (e) {
     e.preventDefault();

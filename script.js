@@ -105,7 +105,7 @@ $(document).ready(function () {
 /*var myVar;
 
 function myFunction() {
-  myVar = setTimeout(alertFunc, 4000);
+  myVar = setTimeout(alertFunc, 400);
 }
 
 function alertFunc() {

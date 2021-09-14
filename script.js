@@ -109,6 +109,6 @@ function myFunction() {
 }
 
 function alertFunc() {
-  alert("Hello!");
+  alert("Hello!")
 }
  */
